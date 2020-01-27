@@ -16,11 +16,6 @@ p {
     letter-spacing: -0.015em;
 }
 
-.col {
-    background-color: #777;
-    outline: 1px solid black;
-}
-
 .hero-image {
     max-height: 636px;
     width: 100%;
