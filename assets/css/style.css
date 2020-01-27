@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700");
 
-
 body {
     margin: 0;
     padding: 0;
@@ -17,13 +16,16 @@ p {
     letter-spacing: -0.015em;
 }
 
-
-
 .col {
     background-color: #777;
     outline: 1px solid black;
 }
 
+.hero-image {
+    max-height: 636px;
+    width: 100%;
+    overflow: hidden;
+}
 
 /*----------------------Colours---------------- */
 
@@ -40,10 +42,8 @@ p {
 
 h1 {
     text-align: center;
-    font-weight: 300;
     font-size: 48px;
     line-height: 71px;
-    text-transform: uppercase; 
     color: #FA4616;
 }
 
@@ -53,17 +53,18 @@ h1 {
 
 h2 {
     text-align: center;
-    font-weight: 300;
     font-size: 36px;
     line-height: 53px;
-    text-transform: uppercase;
     color: #FA4616;
 }
 
 h3 {
-    font-weight: 300;
     font-size: 30px;
     line-height: 44px;
+}
+
+.uppercase {
     text-transform: uppercase;
+    font-weight: 300;
 }
 
