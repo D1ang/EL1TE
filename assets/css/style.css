@@ -9,7 +9,6 @@ body {
 }
 
 p {
-    font-style: normal;
     font-weight: 200;
     font-size: 24px;
     line-height: 36px;
@@ -17,7 +16,7 @@ p {
 }
 
 .hero-image {
-    max-height: 636px;
+    max-height: 650px;
     width: 100%;
     overflow: hidden;
 }
@@ -36,7 +35,6 @@ p {
 /*----------------------Titles---------------- */
 
 h1 {
-    text-align: center;
     font-size: 48px;
     line-height: 71px;
     color: #FA4616;
@@ -47,7 +45,6 @@ h1 {
 }
 
 h2 {
-    text-align: center;
     font-size: 36px;
     line-height: 53px;
     color: #FA4616;
@@ -63,3 +60,30 @@ h3 {
     font-weight: 300;
 }
 
+.parallax {
+  /* The image used */
+  background-image: url("../images/contact.jpg");
+
+  /* Set a specific height */
+  height: 800px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  /* The image used */
+  background-image: url("../images/ecologic.jpg");
+
+  /* Set a specific height */
+  height: 400px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
