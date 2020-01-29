@@ -21,6 +21,10 @@ p {
     overflow: hidden;
 }
 
+.contact {
+    z-index: -1;
+}
+
 /*----------------------Colours---------------- */
 
 .bg-color-blue {
@@ -29,6 +33,11 @@ p {
 
 .bg-color-footer {
     background-color: #232323;
+}
+
+.bg-color-container {
+    background-color: rgba(50, 50, 50, 0.2)
+
 }
 
 
