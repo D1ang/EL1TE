@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" height="100%" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 430000 310000" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <style type="text/css">
+            <![CDATA[
+    .fil0 {fill:#2B2A29;fill-rule:nonzero}
+   ]]>
+        </style>
+    </defs>
+    <g id="Layer_x0020_1">
+        <path class="fil0" d="M240967.2 55129.6c0,-10570.1 -8589.1,-19151.2 -19162,-19151.2l-31501.3 0c-5119.8,0 -9935.8,1991.9 -13554.8,5615.4 -3623.4,3598.1 -5617.9,8424.7 -5617.9,13535.8 0,5110.4 1994.5,9928.4 5617.9,13553.3 3619,3603 8435,5609.1 13554.8,5609.1l12350.4 0 0 172534.9c0,5115.8 1994,9940.2 5595.9,13542.3 3621.6,3615.7 8424.4,5609.2 13555,5609.2 10572.9,0 19162,-8576.7 19162,-19151.5l0 -191697.3z" />
+    </g>
+</svg>
