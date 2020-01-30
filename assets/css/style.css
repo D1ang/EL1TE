@@ -15,16 +15,6 @@ p {
     letter-spacing: -0.015em;
 }
 
-.hero-image {
-    max-height: 650px;
-    width: 100%;
-    overflow: hidden;
-}
-
-.contact {
-    z-index: -1;
-}
-
 /*----------------------Colours---------------- */
 
 .bg-color-blue {
@@ -43,56 +33,72 @@ p {
 
 /*----------------------Titles---------------- */
 
-h1 {
-    font-size: 48px;
-    line-height: 71px;
-    color: #FA4616;
-}
-
-.bg-color-blue h1 {
-    color: #FFF;
-}
-
-h2 {
-    font-size: 36px;
-    line-height: 53px;
-    color: #FA4616;
-}
-
-h3 {
-    font-size: 30px;
-    line-height: 44px;
-}
-
 .uppercase {
     text-transform: uppercase;
     font-weight: 300;
 }
 
-.parallax {
-  /* The image used */
+/*----------------------Parallax backgrounds---------------- */
+
+.bg-banner {
+    background-image: url("../images/banner.jpg");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.bg-contact {
   background-image: url("../images/contact.jpg");
-
-  /* Set a specific height */
   height: 800px;
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.parallax2 {
-  /* The image used */
+.bg-ecologic {
   background-image: url("../images/ecologic.jpg");
-
-  /* Set a specific height */
   height: 400px;
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/*----------------------Header---------------- */
+
+#logo
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 60px 0 0 30px;
+  text-align: left;
+}
+
+#logo h1 {
+    color: #FFF;
+    font-size: 100px;
+    letter-spacing: 0.145em;
+}
+
+#logo h6 {
+    color: #FFF;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 0px;
+}
+
+#contactbox
+{
+  background-color: #3EC6F1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 50px;
+  padding: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
