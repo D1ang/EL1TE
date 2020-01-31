@@ -6,23 +6,26 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
+	<script src="https://kit.fontawesome.com/dd6f581e56.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="assets/css/style.css">
 	<title>EL1TE - We provide the numbers in sports</title>
 </head>
 
 <body>
 
-	<section class="row bg-dark">
-		<div class="container">
-			<ul class="nav justify-content-end uppercase">
-				<li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Products</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Service</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Price</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-			</ul>
+	<header class="header">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12 col-sm-6 col-md-4 col-lg-9 bg-dark">
+					<ul class="nav justify-content-end uppercase">
+						<li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Service</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Price</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+					</ul>
+				</div>
+			</div>
 		</div>
 
 		<!--Logo Box-->
@@ -38,7 +41,7 @@
 			<a href="#" id="tel">+31 (0) 297 - 286884</a>
 		</div>
 		<!--/.Contact Box end-->
-	</section>
+	</header>
 
 	<div class="overlay">
 		<div class="bg-banner img-fluid"></div>
@@ -64,46 +67,82 @@
 
 	<!--Products-->
 	<section class="bg-color-blue">
-		<div class="row">
-			<div class="col">
-				<h1 class="uppercase text-center my-5">
-					Our products
-				</h1>
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h1 class="font-weight-light text-center text-uppercase my-5">
+						Our products
+					</h1>
+				</div>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col">
-				<h3 class="uppercase">Standard</h3>
-				<ul>
-					<li>Fast delivery times</li>
-					<li>No extra costs</li>
-					<li>Coal based antibleed blocker included</li>
-					<li>ECO-friendly</li>
-					<li>Durable</li>
-					<li>Up to 5 standard designs available</li>
-				</ul>
-			</div>
-			<div class="col">
-				<h3 class="uppercase">Custom</h3>
-				<ul>
-					<li>Decent but fast delivery times</li>
-					<li>own design possibilities</li>
-					<li>Antibleed blocker included</li>
-					<li>Available in any colour and size</li>
-					<li>Eco-friendly</li>
-					<li>Durable</li>
-				</ul>
-			</div>
-			<div class="col">
-				<h3 class="uppercase">Badges</h3>
-				<ul>
-					<li>Delivery time of 3 to 5 wotking days</li>
-					<li>Any colour possible</li>
-					<li>Available sizes on request</li>
-					<li>Coal based antibleed blocker included</li>
-					<li>Eco-friendly</li>
-					<li>Durable</li>
-				</ul>
+
+			<div class="row">
+				<div class="col-12">
+					<div class="card-deck pb-5">
+						<div class="productcard card rounded-0">
+							<div class="card-body ">
+								<h3 class="card-title text-center text-uppercase">Standard</h3>
+								<div class="productcard-icon text-center">
+									<i class=" fas fa-store-alt fa-stack-1x fa-inverse"></i>
+								</div>
+								<ul>
+									<li>Fast delivery times</li>
+									<li>No extra costs</li>
+									<li>Coal based antibleed blocker included</li>
+									<li>ECO-friendly</li>
+									<li>Durable</li>
+									<li>Up to 5 standard designs available</li>
+								</ul>
+								<div class="text-center pb-3">
+									<a href="#contact" class="btn btn-lg btn-cta btn-orange" role="button"
+										aria-pressed="true">Contact us now</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="productcard card rounded-0">
+							<div class="card-body">
+								<h3 class="card-title text-center text-uppercase">Custom</h3>
+								<div class="productcard-icon text-center">
+									<i class=" fas fa-cog fa-stack-1x fa-inverse"></i>
+								</div>
+								<ul>
+									<li>Decent but fast delivery times</li>
+									<li>own design possibilities</li>
+									<li>Antibleed blocker included</li>
+									<li>Available in any colour and size</li>
+									<li>Eco-friendly</li>
+									<li>Durable</li>
+								</ul>
+								<div class="text-center pb-3">
+									<a href="#contact" class="btn btn-lg btn-cta btn-orange" role="button"
+										aria-pressed="true">Contact us now</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="productcard card rounded-0">
+							<div class="card-body">
+								<h3 class="card-title text-center text-uppercase">Badges</h3>
+								<div class="productcard-icon text-center">
+									<i class=" fas fa-shield-alt fa-stack-1x fa-inverse"></i>
+								</div>
+								<ul>
+									<li>Delivery time of 3 to 5 wotking days</li>
+									<li>Any colour possible</li>
+									<li>Available sizes on request</li>
+									<li>Coal based antibleed blocker included</li>
+									<li>Eco-friendly</li>
+									<li>Durable</li>
+								</ul>
+								<div class="text-center pb-3">
+									<a href="#contact" class="btn btn-lg btn-cta btn-orange" role="button"
+										aria-pressed="true">Contact us now</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -236,7 +275,7 @@
 	<!--/.Prices-->
 
 	<!--Contact Us-->
-	<section class="bg-contact">
+	<section class="bg-contact" id="contact">
 		<div class="row">
 			<div class="col">
 				<h1 class="uppercase text-center my-5">

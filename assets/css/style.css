@@ -1,104 +1,139 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700");
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Oswald', sans-serif;
-    font-style: normal;
-    color: #232323;
-}
-
-p {
-    font-weight: 200;
-    font-size: 24px;
-    line-height: 36px;
-    letter-spacing: -0.015em;
+	margin: 0;
+	padding: 0;
+	font-family: 'Oswald', sans-serif;
+	font-style: normal;
+	color: #232323;
 }
 
 /*----------------------Colours---------------- */
 
 .bg-color-blue {
-    background-color: #3EC6F1;
+	height: 100vh;
+	background-color: #3ec6f1;
 }
 
 .bg-color-footer {
-    background-color: #232323;
+	background-color: #232323;
 }
 
 .bg-color-container {
-    background-color: rgba(50, 50, 50, 0.2)
-
-}
-
-
-/*----------------------Titles---------------- */
-
-.uppercase {
-    text-transform: uppercase;
-    font-weight: 300;
+	background-color: rgba(50, 50, 50, 0.2);
 }
 
 /*----------------------Parallax backgrounds---------------- */
 
 .bg-banner {
-    background-image: url("../images/banner.jpg");
-    height: 600px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+	background-image: url("../images/banner.jpg");
+	height: 600px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
 .bg-contact {
-  background-image: url("../images/contact.jpg");
-  height: 800px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+	background-image: url("../images/contact.jpg");
+	height: 800px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .bg-ecologic {
-  background-image: url("../images/ecologic.jpg");
-  height: 400px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+	background-image: url("../images/ecologic.jpg");
+	height: 400px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 /*----------------------Header---------------- */
 
-#logo
-{
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin: 60px 0 0 30px;
-  text-align: left;
+#logo {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 60px 0 0 30px;
+	text-align: left;
 }
 
 #logo h1 {
-    color: #FFF;
-    font-size: 100px;
-    letter-spacing: 0.145em;
+	color: #fff;
+	font-size: 100px;
+	letter-spacing: 0.145em;
 }
 
 #logo h6 {
-    color: #FFF;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 0px;
+	color: #fff;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 0px;
 }
 
-#contactbox
-{
-  background-color: #3EC6F1;
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin-right: 50px;
-  padding: 20px;
-  padding-top: 20px;
-  text-align: center;
+#contactbox {
+	background-color: #3ec6f1;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-right: 50px;
+	padding: 20px;
+	padding-top: 20px;
+	text-align: center;
 }
 
+/*----------------------Buttons---------------- */
+
+.btn-cta {
+	width: 229px;
+	height: 70px;
+	border-radius: 0;
+	padding-top: 14px;
+}
+
+.btn-orange {
+	font-size: 24px;
+	font-weight: 300;
+	color: #fff;
+	background-color: #fa4616;
+}
+
+/*----------------------Products---------------- */
+
+.productcard {
+	border: 0;
+}
+
+.productcard-icon {
+	height: 200px;
+}
+
+.productcard h3 {
+	font-weight: 400;
+	line-height: 44px;
+	letter-spacing: 0.01em;
+}
+
+.productcard i {
+	font-size: 82px;
+	width: 158px;
+	height: 158px;
+	line-height: 158px;
+	border-radius: 50%;
+	position: inherit;
+	background: #fa4616;
+}
+
+.productcard ul {
+	margin-bottom: 50px;
+}
+
+.productcard li {
+	font-size: 21px;
+	font-weight: 200;
+	line-height: 36px;
+	letter-spacing: -0.015em;
+}
