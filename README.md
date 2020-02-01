@@ -9,19 +9,11 @@ It's small, informative, quick and uses a well thought-out logic.
 ## Demo
 A live demo version can be found [here](https://d1ang.github.io/EL1TE/).
 
-![Desktop Demo](https://raw.githubusercontent.com/hschafer2017/HSCHAFER-Portfolio/master/assets/images/portfolioview.gif "Desktop Demo")
 
 ## UX
 
 ### User stories
 
-As an employer I expect to see a showcase of Haley's work.
-
-![Work Showcase](https://raw.githubusercontent.com/Code-Institute-Solutions/StudentExampleProjectGradeFive/master/assets/images/showcase.png "Work Showcase")
-
-As a recruiter I expect to see a showcase of Haley's resume.
-
-![Resume](https://raw.githubusercontent.com/Code-Institute-Solutions/StudentExampleProjectGradeFive/master/assets/images/cv.png "Resume")
 
 ### Strategy
 My goal in the design was to make it as easy as possible to access short informative B2B based site, while striving for a minimalist and user-friendly design as possible.
@@ -37,13 +29,7 @@ Contact information on the top and further down buttons to get to the contact fo
 ### Skeleton
 [EL1TE wireframe](https://www.figma.com/file/3VCrAaJBiDzaORiA8KSroK/EL1TE?node-id=0%3A1)
 
-[Responsive phone wireframe](https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive/blob/master/wireframes/contact.png)
-
-[Landing Page wireframe](https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive/blob/master/wireframes/landing.jpeg)
-
-[Skills wireframe](https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive/blob/master/wireframes/skills.jpeg)
-
-[Work wireframe](https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive/blob/master/wireframes/work.png)
+[Responsive phone wireframe](https://www.figma.com/file/EdKAJaVOlBZMMYuAMIOIms/EL1TE-Copy)
 
 ### Surface
 The colours blue and orange were used to create as high energy "sport" like feel.
@@ -95,4 +81,5 @@ All material from Adobe Stock are licensed with a paid account.
 ### Acknowledgements
 
 The Parallax Scrolling effect was found on w3schools.com [link](https://www.w3schools.com/howto/howto_css_parallax.asp) by advice.
+
 The following site [link](https://www.mbsportswear.nl/) was used as an insparation for the navbar and blue "call to action" box.
