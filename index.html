@@ -304,35 +304,40 @@
 	<!--/.Prices end-->
 
 	<!--Contact-->
-	<section class="bg-contact" id="contact">
+	<div id="contact" class="container-fluid contact-container">
 		<div class="row">
-			<div class="col">
-				<h1 class="uppercase text-center my-5">
+			<div class="col-12 mt-5">
+				<h1 class="font-weight-light text-center text-uppercase text-white">
 					Contact Us
 				</h1>
+			</div>
+		</div>
 
-				<form class="container bg-color-container p-5">
-					<div class="form-group text-white">
-						<label for="exampleInputEmail1">First Name</label>
-						<input type="email" class="form-control bg-transparent rounded-0" id="exampleInputEmail1"
-							aria-describedby="emailHelp">
+		<div class="row">
+			<div class="col-12">
+				<form class="container form-bg-color text-white p-4">
+					<div class="form-group">
+						<label for="fname">First Name</label>
+						<input type="text" class="form-control bg-transparent rounded-0" id="fname">
 					</div>
-					<div class="form-group text-white">
-						<label for="exampleInputPassword1">Last Name</label>
-						<input type="password" class="form-control bg-transparent rounded-0" id="exampleInputPassword1">
+					<div class="form-group">
+						<label for="lname">Last Name</label>
+						<input type="text" class="form-control bg-transparent rounded-0" id="lname">
 					</div>
-					<div class="form-group text-white">
-						<label for="exampleInputPassword1">Email Address</label>
-						<input type="password" class="form-control bg-transparent rounded-0" id="exampleInputPassword1">
+					<div class="form-group">
+						<label for="mail">Email Address</label>
+						<input type="email" class="form-control bg-transparent rounded-0" id="mail">
 					</div>
-					<div class="text-center">
-						<button id="singlebutton" name="singlebutton" class="btn btn-primary">Send us your
-							details</button>
+
+					<div class="text-center py-2">
+						<a href="#" class="btn btn-lg btn-cta btn-orange" role="button" aria-pressed="true">
+							Send us your details
+						</a>
 					</div>
 				</form>
 			</div>
 		</div>
-	</section>
+	</div>
 	<!--/.Contact end-->
 
 	<footer class="bg-color-footer">
