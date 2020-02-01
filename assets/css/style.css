@@ -39,26 +39,6 @@ html {
 	background-color: #fa4616;
 }
 
-/*----------------------Parallax backgrounds---------------- */
-
-.bg-contact {
-	background-image: url("../images/contact.jpg");
-	height: 800px;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.bg-ecologic {
-	background-image: url("../images/ecologic.jpg");
-	height: 450px;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
 /*----------------------Navbar---------------- */
 
 .navbar-custom {
@@ -125,7 +105,7 @@ html {
 	color: #fff;
 }
 
-/*----------------------Contactbox---------------- */
+/*----------------------small header contactbox---------------- */
 
 .contactbox {
 	position: absolute;
@@ -238,4 +218,25 @@ html {
 
 .service-container i {
 	color: #fa4616;
+}
+
+.bg-ecologic {
+	height: 450px;
+	background: url("../images/ecologic.jpg") fixed center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	display: flex;
+}
+
+/*----------------------Parallax backgrounds---------------- */
+
+.bg-contact {
+	background-image: url("../images/contact.jpg");
+	height: 800px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
