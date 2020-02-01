@@ -5,65 +5,74 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-	<script src="https://kit.fontawesome.com/dd6f581e56.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="assets/css/style.css">
 	<title>EL1TE - We provide the numbers in sports</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<script src="https://kit.fontawesome.com/dd6f581e56.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-	<header class="header">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-12 col-sm-6 col-md-4 col-lg-9 bg-dark">
-					<ul class="nav justify-content-end uppercase">
-						<li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-						<li class="nav-item"><a class="nav-link" href="#">Products</a></li>
-						<li class="nav-item"><a class="nav-link" href="#service">Service</a></li>
-						<li class="nav-item"><a class="nav-link" href="#">Price</a></li>
-						<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-					</ul>
+	<!--Navbar-->
+	<nav class="navbar navbar-expand-sm text-uppercase navbar-dark navbar-custom ">
+
+		<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+			aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span></button>
+
+		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+			<ul class="navbar-nav">
+				<li class="active nav-item"><a class="nav-link" href="/">Home</a></li> |
+				<li class="nav-item"><a class="nav-link" href="#products">Products</a></li>|
+				<li class="nav-item"><a class="nav-link" href="#service">Service</a></li> |
+				<li class="nav-item"><a class="nav-link" href="#price">Price</a></li> |
+				<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+	<!--/.Navbar end -->
+
+	<!--Hero image-->
+	<section>
+		<div class="darker-overlay"></div>
+		<div class="container-fluid banner-container">
+			<div id="logo">
+				<h1>EL1TE</h1>
+				<h6>we provide the numbers in sports</h6>
+			</div>
+			<div class="contactbox d-none d-md-block ">
+				<h4>professional advice</h4>
+				<i class=" fas fa-phone-alt"></i>
+				<a href="#" id="tel"> +31 (0) 297 - 286884</a>
+				<div class="pt-4 social">
+					<a href="#"><i class="fab fa-linkedin"></i></a>
+					<a href="#"><i class="fab fa-facebook-square"></i></a>
+					<a href="#"><i class="fab fa-whatsapp-square"></i></a>
 				</div>
 			</div>
 		</div>
-
-		<!--Logo Box-->
-		<div id="logo">
-			<h1>EL1TE</h1>
-			<h6>we provide the numbers in sports</h6>
-		</div>
-		<!--/.Logo Box end-->
-
-		<!--Contact Box-->
-		<div id="contactbox">
-			<h4>professional advice</h4>
-			<a href="#" id="tel">+31 (0) 297 - 286884</a>
-		</div>
-		<!--/.Contact Box end-->
-	</header>
-
-	<div class="overlay">
-		<div class="bg-banner img-fluid"></div>
-	</div>
+	</section>
+	<!--/.Hero image end-->
 
 	<!--Callout-->
-	<section class="text-center">
+	<div class="container-fluid callout-container text-center">
 		<div class="row">
 			<div class="col">
-				<h2 class="uppercase my-3">
+				<h2 class="text-uppercase my-4">
 					You need squad numbers for your team, but how?
 				</h2>
-				<p>
+				<p class="my-4">
 					We provide the required flexibility, service, knowledge and speed
 					to deliver a high quality, eco-efficiently produced and durable product for a decent price.
 				</p>
-
-				<input class="btn btn-primary my-5" type="button" value="Let's work together!">
+				<div class="text-center my-5">
+					<a href="#contact" class="btn btn-lg btn-cta btn-orange" role="button" aria-pressed="true">Let's
+						work together!</a>
+				</div>
 			</div>
 		</div>
-	</section>
-	<!--/.Callout-->
+	</div>
+	<!--/.Callout end-->
 
 	<!--Products-->
 	<section class="bg-color-blue">
@@ -149,70 +158,68 @@
 	<!--/.Products-->
 
 	<!--Service-->
-	<section id="service">
-		<div class="container" style="max-width: 1400px;">
-			<div class="row">
-				<div class="col-12 my-5">
-					<h1 class="font-weight-light text-center text-uppercase">
-						Why Choose us?
-					</h1>
+	<div id="service" class="container service-container" style="max-width: 1400px;">
+		<div class="row">
+			<div class="col-12 my-5">
+				<h1 class="font-weight-light text-center text-uppercase">
+					Why Choose us?
+				</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 col-md-4 col-lg-4">
+				<div class="service">
+					<h3 class="text-uppercase"><i class="fas fa-leaf"></i> Special Approval</h3>
+					<p>
+						All our materials are tested externally by Bureau Vertias on ecofriendliness.
+					</p>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-12 col-md-4 col-lg-4">
-					<div class="service">
-						<h3 class="text-uppercase"><i class="fas fa-leaf"></i> Special Approval</h3>
-						<p>
-							All our materials are tested externally by Bureau Vertias on ecofriendliness.
-						</p>
-					</div>
-				</div>
-				<div class="col-12 col-md-4 col-lg-4">
-					<div class="service">
-						<h3 class="text-uppercase"><i class="fas fa-user-graduate"></i> Professional Service</h3>
-						<p>
-							25 years of knowledges and support will be at your service, 5 days a week.
-						</p>
-					</div>
-				</div>
-				<div class="col-12 col-md-4 col-lg-4">
-					<div class="service">
-						<h3 class="text-uppercase"><i class="fas fa-thumbs-up"></i> Stable quality</h3>
-						<p>
-							We test our products daily to keep up with the standards of professional sports.
-						</p>
-					</div>
+			<div class="col-12 col-md-4 col-lg-4">
+				<div class="service">
+					<h3 class="text-uppercase"><i class="fas fa-user-graduate"></i> Professional Service</h3>
+					<p>
+						25 years of knowledges and support will be at your service, 5 days a week.
+					</p>
 				</div>
 			</div>
-
-			<div class="row my-5">
-				<div class="col-12 col-md-4 col-lg-4">
-					<div class="service">
-						<h3 class="text-uppercase"><i class="fas fa-trophy"></i> Used by pro's</h3>
-						<p>
-							Heavily used by the top soccer team of Amsterdam for the past 5 years.
-						</p>
-					</div>
-				</div>
-				<div class="col-12 col-md-4 col-lg-4">
-					<div class="service">
-						<h3 class="text-uppercase"><i class="fas fa-user-cog"></i> Flexible</h3>
-						<p>
-							Short lines of communication! Thanks to our inhouse design studio and production facility.
-						</p>
-					</div>
-				</div>
-				<div class="col-12 col-md-4 col-lg-4">
-					<div class="service">
-						<h3 class="text-uppercase"><i class="fas fa-shipping-fast"></i> Fast deliveries</h3>
-						<p>
-							Our standard production time is 2 - 5 business days. on standard 1 business day.
-						</p>
-					</div>
+			<div class="col-12 col-md-4 col-lg-4">
+				<div class="service">
+					<h3 class="text-uppercase"><i class="fas fa-thumbs-up"></i> Stable quality</h3>
+					<p>
+						We test our products daily to keep up with the standards of professional sports.
+					</p>
 				</div>
 			</div>
 		</div>
-	</section>
+
+		<div class="row my-5">
+			<div class="col-12 col-md-4 col-lg-4">
+				<div class="service">
+					<h3 class="text-uppercase"><i class="fas fa-trophy"></i> Used by pro's</h3>
+					<p>
+						Heavily used by the top soccer team of Amsterdam for the past 5 years.
+					</p>
+				</div>
+			</div>
+			<div class="col-12 col-md-4 col-lg-4">
+				<div class="service">
+					<h3 class="text-uppercase"><i class="fas fa-user-cog"></i> Flexible</h3>
+					<p>
+						Short lines of communication! Thanks to our inhouse design studio and production facility.
+					</p>
+				</div>
+			</div>
+			<div class="col-12 col-md-4 col-lg-4">
+				<div class="service">
+					<h3 class="text-uppercase"><i class="fas fa-shipping-fast"></i> Fast deliveries</h3>
+					<p>
+						Our standard production time is 2 - 5 business days. on standard 1 business day.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<div class="container-fluid bg-ecologic"></div>
 	<!--/.Service-->

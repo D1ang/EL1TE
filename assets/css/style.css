@@ -22,19 +22,23 @@ body {
 	background-color: #232323;
 }
 
-.bg-color-container {
-	background-color: rgba(50, 50, 50, 0.2);
+/*----------------------Buttons---------------- */
+
+.btn-cta {
+	width: 229px;
+	height: 70px;
+	border-radius: 0;
+	padding-top: 14px;
+}
+
+.btn-orange {
+	font-size: 24px;
+	font-weight: 300;
+	color: #fff;
+	background-color: #fa4616;
 }
 
 /*----------------------Parallax backgrounds---------------- */
-
-.bg-banner {
-	background-image: url("../images/banner.jpg");
-	height: 600px;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
 
 .bg-contact {
 	background-image: url("../images/contact.jpg");
@@ -54,54 +58,122 @@ body {
 	background-size: cover;
 }
 
+/*----------------------Navbar---------------- */
+
+.navbar-custom {
+	height: 60px;
+	background-color: #232323;
+	color: white;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+	padding: 2px 18px 0 18px;
+	font-weight: 200;
+	letter-spacing: -0.015em;
+	color: #fff;
+}
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+	color: #fa4616;
+}
+
 /*----------------------Header---------------- */
+
+.banner-container {
+	height: 560px;
+	background: url('../images/banner.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	display: flex;
+}
+
+.darker-overlay {
+	position: absolute;
+	top: 60px;
+	left: 0;
+	height: 560px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+}
 
 #logo {
 	position: absolute;
 	top: 0;
 	left: 0;
-	margin: 60px 0 0 30px;
+	margin: 80px 0 0 40px;
 	text-align: left;
 }
 
 #logo h1 {
-	color: #fff;
-	font-size: 100px;
+	font-weight: 600;
+	font-size: 110px;
+	line-height: 120px;
 	letter-spacing: 0.145em;
+	color: #fff;
 }
 
 #logo h6 {
-	color: #fff;
-	font-weight: normal;
-	font-size: 22px;
+	font-weight: 300;
+	font-size: 25px;
 	line-height: 0px;
+	padding-left: 4px;
+	letter-spacing: 0.01em;
+	color: #fff;
 }
 
-#contactbox {
-	background-color: #3ec6f1;
+/*----------------------Contactbox---------------- */
+
+.contactbox {
 	position: absolute;
 	top: 0;
 	right: 0;
+	height: 268px;
+	width: 300px;
 	margin-right: 50px;
 	padding: 20px;
-	padding-top: 20px;
 	text-align: center;
+	background-color: #3ec6f1;
 }
 
-/*----------------------Buttons---------------- */
-
-.btn-cta {
-	width: 229px;
-	height: 70px;
-	border-radius: 0;
-	padding-top: 14px;
-}
-
-.btn-orange {
-	font-size: 24px;
-	font-weight: 300;
+.contactbox h4 {
+	font-weight: 200;
+	font-size: 36px;
+	line-height: 53px;
+	letter-spacing: -0.015em;
+	padding-bottom: 60px;
 	color: #fff;
-	background-color: #fa4616;
+}
+
+.contactbox i {
+	color: #fff;
+	padding-right: 5px;
+}
+
+.contactbox a {
+	color: #fff;
+}
+
+.social i {
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 37px;
+	color: #fff;
+}
+
+/*----------------------Callout---------------- */
+
+.callout-container {
+	background-color: #fff;
+}
+
+.callout-container h2 {
+	font-weight: 300;
+	font-size: 36px;
+	line-height: 53px;
+	letter-spacing: 0.01em;
 }
 
 /*----------------------Products---------------- */
@@ -143,11 +215,11 @@ body {
 
 /*----------------------Service---------------- */
 
-.service {
+.service-container {
 	background-color: #fff;
 }
 
-.service h3 {
+.service-container h3 {
 	font-family: Oswald;
 	font-style: normal;
 	font-weight: 300;
@@ -157,6 +229,6 @@ body {
 	text-transform: uppercase;
 }
 
-.service i {
+.service-container i {
 	color: #fa4616;
 }
