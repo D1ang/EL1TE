@@ -11,6 +11,7 @@ html {
 	line-height: 36px;
 	letter-spacing: -0.015em;
 	color: #232323;
+	background-color: #232323;
 }
 
 /*----------------------Colours---------------- */
@@ -68,6 +69,10 @@ html {
 	font-weight: 200;
 	letter-spacing: -0.015em;
 	color: #fff;
+}
+
+.navbar .navbar-nav .nav-item:first-child .nav-link {
+	border-left: none;
 }
 
 .navbar .nav-item.active .nav-link,
@@ -184,6 +189,12 @@ html {
 
 /*----------------------Products---------------- */
 
+.card-deck {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: .5rem;
+}
+
 .productcard {
 	border: 0;
 }
@@ -222,6 +233,7 @@ html {
 /*----------------------Service---------------- */
 
 .service-container {
+	padding-bottom: 2px;
 	background-color: #fff;
 }
 
@@ -294,7 +306,6 @@ html {
 
 .footer-container {
 	height: 20%;
-	background-color: #232323;
 }
 
 .footer-container h1 {
@@ -304,15 +315,11 @@ html {
 	color: #fff;
 }
 
-.footer-container p {
-	font-weight: 200;
-	font-size: 20px;
-	letter-spacing: -0.015em;
-	padding-top: 2px;
+.footer-container a {
+	color: #fff;
 }
 
-.card-deck {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-	grid-gap: .5rem;
+.footer-container a:hover {
+	text-decoration: none;
+	color: #fa4616;
 }
