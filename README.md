@@ -82,4 +82,6 @@ All material from Adobe Stock are licensed with a paid account.
 
 The Parallax Scrolling effect was found on w3schools.com [link](https://www.w3schools.com/howto/howto_css_parallax.asp) by advice.
 
+Fixing the card-decks responsiveness [link](https://stackoverflow.com/questions/48406628/bootstrap-align-button-to-the-bottom-of-card)
+
 The following site [link](https://www.mbsportswear.nl/) was used as an insparation for the navbar and blue "call to action" box.

@@ -26,6 +26,7 @@ html {
 /*----------------------Buttons---------------- */
 
 .btn-custom-orange {
+	margin-top: auto;
 	height: 70px;
 	border-radius: 0;
 	padding-top: 14px;
@@ -308,4 +309,10 @@ html {
 	font-size: 20px;
 	letter-spacing: -0.015em;
 	padding-top: 2px;
+}
+
+.card-deck {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: .5rem;
 }
