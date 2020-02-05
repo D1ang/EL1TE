@@ -273,7 +273,7 @@ html {
 	background-color: #3ec6f1;
 }
 
-.prices-container h2 {
+.prices-container h3 {
 	font-weight: 300;
 	font-size: 36px;
 	line-height: 53px;
@@ -315,7 +315,7 @@ html {
 	height: 20%;
 }
 
-.footer-container h1 {
+.footer-container h2 {
 	font-weight: 600;
 	font-size: 90px;
 	letter-spacing: 0.145em;
@@ -329,4 +329,10 @@ html {
 .footer-container a:hover {
 	text-decoration: none;
 	color: #fa4616;
+}
+
+@media screen and (max-width: 600px) {
+	.footer-container li {
+		text-align: center;
+	}
 }
