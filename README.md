@@ -1,14 +1,14 @@
 # EL1TE
-Milestone project 1
+Milestone project 1: User-Centric Frontend Development - Code Institute
 
-This is my first project website to present to prospective employers. 
-This site icludes a nice parallex scrolling effect that makes sense by properly placing meaningfull pictures.
-It's build as a short sales pitch to get more customers.
-It's small, informative, quick and uses a well thought-out logic.
+As a current employee of a screen-press company a need for new concepts 
+in sports clothing has been requested to get more customers.
+The site needs to be small, informative, quick and to use a well thought-out logic.
 
 ## Demo
 A live demo version can be found [here](https://d1ang.github.io/EL1TE/).
 
+![Design](https://github.com/D1ang/EL1TE/blob/master/mockups/responsive.jpg)
 
 ## UX
 
