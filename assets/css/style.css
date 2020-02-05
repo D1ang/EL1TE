@@ -12,6 +12,7 @@ html {
 	letter-spacing: -0.015em;
 	color: #232323;
 	background-color: #232323;
+	scroll-behavior: smooth;
 }
 
 /*----------------------Colours---------------- */
