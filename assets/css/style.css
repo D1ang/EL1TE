@@ -76,6 +76,12 @@ html {
 	border-left: none;
 }
 
+@media screen and (max-width: 600px) {
+	.navbar .navbar-nav .nav-link {
+		border-left: none;
+	}
+}
+
 .navbar .nav-item.active .nav-link,
 .navbar .nav-item:hover .nav-link {
 	color: #fa4616;
