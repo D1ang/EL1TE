@@ -8,7 +8,7 @@ The site needs to be small, informative, quick and to use a well thought-out log
 ## Demo
 A live demo version can be found [here](https://d1ang.github.io/EL1TE/).
 
-![Design](https://github.com/D1ang/EL1TE/blob/master/mockups/responsive.jpg)
+![Design](https://github.com/D1ang/EL1TE/blob/master/mockups/responsive.png)
 
 ## UX
 
