@@ -1,9 +1,21 @@
 # EL1TE
+
+## Contents
+
+Introduction
+UX
+User stories
+
+
+
+
+## Introduction
 Milestone project 1: User-Centric Frontend Development - Code Institute
 
 As a current employee of a screen-press company a need for new concepts 
-in sports clothing has been requested to get more customers.
-The site needs to be small, informative, quick and to use a well thought-out logic.
+in sports clothing has been requested to get more customers in sport.
+The site needs to be small, informative, quick and to use a well thought-out logic to make as know on the web and to trigger new customers attention.
+
 
 ## Demo
 A live demo version can be found [here](https://d1ang.github.io/EL1TE/).
@@ -11,8 +23,26 @@ A live demo version can be found [here](https://d1ang.github.io/EL1TE/).
 ![Design](https://github.com/D1ang/EL1TE/blob/master/mockups/responsive.png)
 
 ## UX
+To make the website as clear as possible to the user as to the service ARS provide. Be simple layout with the main focus on the providers service and customer reviews to in-still confidence in the potential customer looking for appliance repair or service.
 
-### User stories
+User goal : find professional service agent
+User goal: clearly be able to see contact routes for the service provider
+User goal: see previous customer experience to help me make my choice.
+
+
+
+
+## User stories
+Trough phone-recearch of excisting customers we tried to find out what they need and what they think what our strongest and weakest point are.
+We wanted to know what our costumer find important.
+The following points came up:
+ - Trustworthy
+ - Fast
+ - FLexible
+ - decent prices
+ - Options
+
+
 
 
 ### Strategy
@@ -33,6 +63,7 @@ Contact information on the top and further down buttons to get to the contact fo
 
 ### Surface
 The colours blue and orange were used to create as high energy "sport" like feel.
+After a short Google search for the most used Google Font sport site's Oswald was shocen because it's popular in demand on sport sites
 
 ## Technologies
 1. HTML5
@@ -54,12 +85,40 @@ I would like to also add animations to the cards in the products and prices sect
 ## Testing
 All links will function but the socialmedia links will open the main page of the particular platform.
 The "Send us your details" button will return to the home section.
+Custom CCS code is writting for every button comfort design.
 
 This site was tested across multiple screen sizes on Chrome, Safari and Internet Explore
 To ensure compatibility and responsiveness it was also tested on an android based mobile device (OnePlus5).
+When the webpage is visited on larger screens a blue box is shown on the upper right side of the screen.
+This will dissapear on smaller screens the box is used for direct to call actions and social media.
+A navbar is show all the time and will transform to a optionbar on smaller phone screens.
 
-The following test have been runned to ensure proper functionality:
+Text.
+The text and card-decks will properly align on every screen size. The card-decks have some extra CSS code to improve alignment of the content within the cards.
+The footer will place the text beneeath echother to make it mmore nice for phonelinke smaller screens.
 
+Bugs:
+
+Card-decks responsive:
+Fixing the card-decks responsiveness
+The standard Bootstrap functions gave problems with the content inside cards on card-decks it got squashed so a solution needed to be found.
+[stack overflow](https://stackoverflow.com/questions/48406628/bootstrap-align-button-to-the-bottom-of-card)
+This solutions steps away of the rugalar bootstrap grid and uses a workaround in CSS to fix the responsive problems.
+
+Scrolling:
+
+Scrolling to the site felt a  bit slugish by using Smooth Scrolling
+[w3schools.com](https://www.w3schools.com/howto/howto_css_smooth_scroll.asp)
+By using Smooth Scroll the navbuttons to the pages are react more fluid.
+
+
+
+
+The following test have been used to ensure proper site functionality:
+[GTmetrix](https://gtmetrix.com/) To test on website loading times
+[W3C HTML Validator](https://validator.w3.org/) This validator checks the markup validity of Web documents in HTML.
+[W3C CSS Validator](https://jigsaw.w3.org/css-validator/) This validator checks the markup validity of Web documents in CSS.
+[Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) Inspecting on overflow errors
 
 
 ## Deployment
@@ -84,5 +143,7 @@ All material from Adobe Stock are licensed with a paid account.
 The Parallax Scrolling effect was found on w3schools.com [link](https://www.w3schools.com/howto/howto_css_parallax.asp) by advice.
 
 Fixing the card-decks responsiveness [link](https://stackoverflow.com/questions/48406628/bootstrap-align-button-to-the-bottom-of-card)
+The standard Bootstrap functions gave problems with the content inside cards on card-decks it got squashed so a solution need to be made.
+This solutions steps away of the rugalr bootstrap grid and uses CSS to fix the responsive problems.
 
 The following site [link](https://www.mbsportswear.nl/) was used as an insparation for the navbar and blue "call to action" box.
