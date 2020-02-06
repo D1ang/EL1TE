@@ -1,21 +1,16 @@
 # EL1TE
-
-## Contents
-
-Introduction
-UX
-User stories
-
-
-
-
-## Introduction
 Milestone project 1: User-Centric Frontend Development - Code Institute
 
+## Introduction
 As a current employee of a screen-press company a need for new concepts 
 in sports clothing has been requested to get more customers in sport.
-The site needs to be small, informative, quick and to use a well thought-out logic to make as know on the web and to trigger new customers attention.
+The site needs to be small, informative, quick and to use a well thought-out logic
+Main goal is to make us know on the web and to trigger new customers attention.
+The customer base will be B2B companies in sports.
 
+In short:
+- increase brand awareness
+- attrac more clients
 
 ## Demo
 A live demo version can be found [here](https://d1ang.github.io/EL1TE/).
@@ -23,33 +18,27 @@ A live demo version can be found [here](https://d1ang.github.io/EL1TE/).
 ![Design](https://github.com/D1ang/EL1TE/blob/master/mockups/responsive.png)
 
 ## UX
-To make the website as clear as possible to the user as to the service ARS provide. Be simple layout with the main focus on the providers service and customer reviews to in-still confidence in the potential customer looking for appliance repair or service.
-
-User goal : find professional service agent
-User goal: clearly be able to see contact routes for the service provider
-User goal: see previous customer experience to help me make my choice.
-
-
-
+To make the website as clear as possible to the user as to the option we provide.
+Be simple layout with the main focus on the companies service and product options
+to in-still confidence in the potential B2B customer looking for the products they need.
 
 ## User stories
 Trough phone-recearch of excisting customers we tried to find out what they need and what they think what our strongest and weakest point are.
 We wanted to know what our costumer find important.
 The following points came up:
- - Trustworthy
- - Fast
- - FLexible
- - decent prices
- - Options
 
-
-
+ - As a user, I want to see if this company is trustworthy.             (service pag)
+ - As a user, I want to know if this company is fast and flexible.      (service page)
+ - As a user, I want to know how much it will cost.                     (price page)
+ - As a user, I want to know my product options.                        (product page)
+ - As a user, I want to cknow how I can contact this company.           (blue contactbox, contact page and footer)
 
 ### Strategy
-My goal in the design was to make it as easy as possible to access short informative B2B based site, while striving for a minimalist and user-friendly design as possible.
+The goal in the design was to make it as easy as possible to access short informative B2B based site,
+while striving for a minimalist and user-friendly design as possible.
 
 ### Scope
-For B2B visitors, I wanted to provide them with a short overview of the products and the companies strongest points.
+For B2B visitors, we wanted to provide them with a short overview of the products and the companies strongest points.
 This way, they would be able to get a glimpse of what the company sells and would be a trustworthy partner to do business with.
 
 ### Structure
@@ -58,17 +47,17 @@ Contact information on the top and further down buttons to get to the contact fo
 
 ### Skeleton
 [EL1TE wireframe](https://www.figma.com/file/3VCrAaJBiDzaORiA8KSroK/EL1TE?node-id=0%3A1)
-
 [Responsive phone wireframe](https://www.figma.com/file/EdKAJaVOlBZMMYuAMIOIms/EL1TE-Copy)
 
 ### Surface
 The colours blue and orange were used to create as high energy "sport" like feel.
-After a short Google search for the most used Google Font sport site's Oswald was shocen because it's popular in demand on sport sites
+After a short Google search for the most used Google Fonto n sport site's.
+Oswald was shocen on it's popularity in demand on sport sites.
 
 ## Technologies
-1. HTML5
-2. CSS
-3. Bootstrap (4.4.1)
+1. HTML5                To create a basic site
+2. CSS                  To create a nice style and stand out
+3. Bootstrap (4.4.1)    To improve responsiveness
 
 
 ## Features
@@ -76,6 +65,16 @@ This site uses a parallax scrolling effect in CSS to create a subtle element of 
 The navbar collapsed on smaller screen sizes to be usefull one phones.
 On larger screens a "call to action" bluebox wil appear so user can contact more quickly without scrolling trough the page.
 
+Navbar: 
+Home:
+Products:
+Service:
+Price:
+Contact:
+
+### Existing Features
+- Feature 1 - allows users X to achieve Y, by having them fill out Z
+- ...
 
 ### Features Left to Implement
 In the future, I would like to add an ordersystem behind a login so excisting customers can order products more easily.
@@ -97,21 +96,18 @@ Text.
 The text and card-decks will properly align on every screen size. The card-decks have some extra CSS code to improve alignment of the content within the cards.
 The footer will place the text beneeath echother to make it mmore nice for phonelinke smaller screens.
 
-Bugs:
+## Bugs:
 
-Card-decks responsive:
+### Card-decks responsive:
 Fixing the card-decks responsiveness
 The standard Bootstrap functions gave problems with the content inside cards on card-decks it got squashed so a solution needed to be found.
 [stack overflow](https://stackoverflow.com/questions/48406628/bootstrap-align-button-to-the-bottom-of-card)
 This solutions steps away of the rugalar bootstrap grid and uses a workaround in CSS to fix the responsive problems.
 
-Scrolling:
-
+### Scrolling:
 Scrolling to the site felt a  bit slugish by using Smooth Scrolling
 [w3schools.com](https://www.w3schools.com/howto/howto_css_smooth_scroll.asp)
 By using Smooth Scroll the navbuttons to the pages are react more fluid.
-
-
 
 
 The following test have been used to ensure proper site functionality:
