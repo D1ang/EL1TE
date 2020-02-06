@@ -57,8 +57,9 @@ The "Send us your details" button will return to the home section.
 
 This site was tested across multiple screen sizes on Chrome, Safari and Internet Explore
 To ensure compatibility and responsiveness it was also tested on an android based mobile device (OnePlus5).
-During the testing phase, I found out that ```Parallax scrolling effect``` was not compatible with Android chrome browsers.
-The images will show but there will be no scrolling effect.
+
+The following test have been runned to ensure proper functionality:
+
 
 
 ## Deployment
