@@ -135,13 +135,13 @@ https://stackoverflow.com/questions/36487389/bootstrap-4-card-deck-table-cell-co
 	font-size: 110px;
 	line-height: 120px;
 	letter-spacing: 0.145em;
+	margin-bottom: 5px;
 	color: #fff;
 }
 
 #logo h6 {
 	font-weight: 300;
 	font-size: 25px;
-	line-height: 0px;
 	padding-left: 4px;
 	letter-spacing: 0.01em;
 	color: #fff;
