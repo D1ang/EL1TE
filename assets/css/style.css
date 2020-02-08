@@ -2,40 +2,40 @@
 
 body,
 html {
-	margin: 0;
-	padding: 0;
-	font-family: 'Oswald', sans-serif;
-	font-style: normal;
-	font-weight: 200;
-	font-size: 24px;
-	line-height: 36px;
-	letter-spacing: -0.015em;
-	color: #232323;
-	background-color: #232323;
-	scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.015em;
+  color: #232323;
+  background-color: #232323;
+  scroll-behavior: smooth;
 }
 
 /*----------------------Colours---------------- */
 
 .bg-color-blue {
-	background-color: #3ec6f1;
+  background-color: #3ec6f1;
 }
 
 .form-bg-color {
-	background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 /*----------------------Buttons---------------- */
 
 .btn-custom-orange {
-	margin-top: auto;
-	height: 70px;
-	border-radius: 0;
-	padding-top: 14px;
-	font-size: 24px;
-	font-weight: 300;
-	color: #fff;
-	background-color: #fa4616;
+  margin-top: auto;
+  height: 70px;
+  border-radius: 0;
+  padding-top: 14px;
+  font-size: 24px;
+  font-weight: 300;
+  color: #fff;
+  background-color: #fa4616;
 }
 
 /*----------------------Card-deck---------------- */
@@ -46,311 +46,311 @@ Created by user exitarz on Stackoverflow:
 https://stackoverflow.com/questions/36487389/bootstrap-4-card-deck-table-cell-columns-responsive-based-on-viewport*/
 
 .card-deck {
-	display: -ms-grid;
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-	grid-gap: .5rem;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: .5rem;
 }
 
 /*----------------------Navbar---------------- */
 
 .navbar {
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	height: 60px;
-	background-color: #232323;
-	z-index: 1;
-	color: #fff;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #232323;
+  z-index: 1;
+  color: #fff;
 }
 
 .navbar-wrapper {
-	background-color: #232323;
-	padding: 15px 0 20px 0;
-	text-align: right;
+  background-color: #232323;
+  padding: 15px 0 20px 0;
+  text-align: right;
 }
 
 .navbar .navbar-toggler {
-	margin-top: 3px;
-	border: 0;
+  margin-top: 3px;
+  border: 0;
 }
 
 .navbar-toggler:focus,
 .navbar-toggler:active {
-	outline: none;
-	box-shadow: none;
+  outline: none;
+  box-shadow: none;
 }
 
 .navbar .navbar-nav .nav-link {
-	height: 21px;
-	padding: 0 18px 0 18px;
-	margin-bottom: 2px;
-	margin-top: 6px;
-	line-height: 17px;
-	border-left: 2px solid #fff;
-	font-weight: 200;
-	letter-spacing: -0.015em;
-	color: #fff;
+  height: 21px;
+  padding: 0 18px 0 18px;
+  margin-bottom: 2px;
+  margin-top: 6px;
+  line-height: 17px;
+  border-left: 2px solid #fff;
+  font-weight: 200;
+  letter-spacing: -0.015em;
+  color: #fff;
 }
 
 .navbar .navbar-nav .nav-item:first-child .nav-link {
-	border-left: none;
+  border-left: none;
 }
 
 @media screen and (max-width: 600px) {
-	.navbar .navbar-nav .nav-link {
-		border-left: none;
-	}
+  .navbar .navbar-nav .nav-link {
+    border-left: none;
+  }
 }
 
 .navbar .nav-item.active .nav-link,
 .navbar .nav-item:hover .nav-link {
-	color: #fa4616;
+  color: #fa4616;
 }
 
 /*----------------------Header---------------- */
 
 .banner-container {
-	height: 560px;
-	background: url('../images/banner.jpg') no-repeat center center fixed;
-	background-size: cover;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
+  height: 560px;
+  background: url('../images/banner.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .darker-overlay {
-	position: absolute;
-	top: 60px;
-	left: 0;
-	height: 560px;
-	width: 100%;
-	background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 60px;
+  left: 0;
+  height: 560px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 #logo {
-	position: absolute;
-	z-index: 0;
-	top: 0;
-	left: 0;
-	margin: 80px 0 0 40px;
-	text-align: left;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  margin: 80px 0 0 40px;
+  text-align: left;
 }
 
 #logo h1 {
-	font-weight: 600;
-	font-size: 110px;
-	line-height: 120px;
-	letter-spacing: 0.145em;
-	margin-bottom: 5px;
-	color: #fff;
+  font-weight: 600;
+  font-size: 110px;
+  line-height: 120px;
+  letter-spacing: 0.145em;
+  margin-bottom: 5px;
+  color: #fff;
 }
 
 #logo h6 {
-	font-weight: 300;
-	font-size: 25px;
-	padding-left: 4px;
-	letter-spacing: 0.01em;
-	color: #fff;
+  font-weight: 300;
+  font-size: 25px;
+  padding-left: 4px;
+  letter-spacing: 0.01em;
+  color: #fff;
 }
 
 @media screen and (max-width: 600px) {
-	#logo h1 {
-		padding-top: 20%;
-	}
-	#logo h6 {
-		padding-top: 2%;
-	}
+  #logo h1 {
+    padding-top: 20%;
+  }
+  #logo h6 {
+    padding-top: 2%;
+  }
 }
 
 /*----------------------small header contactbox---------------- */
 
 .contact-box {
-	position: absolute;
-	z-index: 2;
-	top: 0;
-	right: 0;
-	height: 268px;
-	width: 300px;
-	margin-right: 50px;
-	padding: 20px;
-	text-align: center;
-	background-color: #3ec6f1;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  height: 268px;
+  width: 300px;
+  margin-right: 50px;
+  padding: 20px;
+  text-align: center;
+  background-color: #3ec6f1;
 }
 
 .contact-box h4 {
-	font-weight: 200;
-	font-size: 36px;
-	line-height: 53px;
-	letter-spacing: -0.015em;
-	padding-bottom: 60px;
-	color: #fff;
+  font-weight: 200;
+  font-size: 36px;
+  line-height: 53px;
+  letter-spacing: -0.015em;
+  padding-bottom: 60px;
+  color: #fff;
 }
 
 .contact-box i {
-	padding-right: 5px;
-	color: #fff;
+  padding-right: 5px;
+  color: #fff;
 }
 
 .contact-box a {
-	text-decoration: none;
-	color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 .social i {
-	padding-left: 10px;
-	padding-right: 10px;
-	font-size: 37px;
-	color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 37px;
+  color: #fff;
 }
 
 .contact-box a:hover,
 .contact-box a:hover .fas,
 .social a:hover .fab {
-	color: #fa4616;
+  color: #fa4616;
 }
 
 /*----------------------Callout---------------- */
 
 .callout-container {
-	background-color: #fff;
+  background-color: #fff;
 }
 
 .callout-container h2 {
-	font-weight: 300;
-	font-size: 36px;
-	line-height: 53px;
-	letter-spacing: 0.01em;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 53px;
+  letter-spacing: 0.01em;
 }
 
 /*----------------------Products---------------- */
 
 .productcard {
-	border: 0;
+  border: 0;
 }
 
 .productcard-icon {
-	height: 200px;
+  height: 200px;
 }
 
 .productcard h3 {
-	font-weight: 400;
-	line-height: 44px;
-	letter-spacing: 0.01em;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0.01em;
 }
 
 .productcard i {
-	font-size: 82px;
-	width: 158px;
-	height: 158px;
-	line-height: 158px;
-	border-radius: 50%;
-	position: inherit;
-	background: #fa4616;
+  font-size: 82px;
+  width: 158px;
+  height: 158px;
+  line-height: 158px;
+  border-radius: 50%;
+  position: inherit;
+  background: #fa4616;
 }
 
 .productcard ul {
-	margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .productcard li {
-	font-size: 21px;
-	font-weight: 200;
-	line-height: 36px;
-	letter-spacing: -0.015em;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 36px;
+  letter-spacing: -0.015em;
 }
 
 /*----------------------Service---------------- */
 
 .service-container {
-	padding-bottom: 2px;
-	background-color: #fff;
+  padding-bottom: 2px;
+  background-color: #fff;
 }
 
 .service-container h3 {
-	font-style: normal;
-	font-weight: 300;
-	font-size: 30px;
-	line-height: 44px;
-	letter-spacing: 0.01em;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 44px;
+  letter-spacing: 0.01em;
 }
 
 .service-container i {
-	color: #fa4616;
+  color: #fa4616;
 }
 
 .bg-ecologic {
-	height: 400px;
-	background: url("../images/ecologic.jpg") fixed center no-repeat;
-	background-size: cover;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
+  height: 400px;
+  background: url("../images/ecologic.jpg") fixed center no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 /*----------------------Prices---------------- */
 
 .prices-container {
-	background-color: #3ec6f1;
+  background-color: #3ec6f1;
 }
 
 .prices-container h3 {
-	font-weight: 300;
-	font-size: 36px;
-	line-height: 53px;
-	letter-spacing: 0.01em;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 53px;
+  letter-spacing: 0.01em;
 }
 
 .price-card {
-	font-weight: 400;
-	line-height: 44px;
-	letter-spacing: 0.01em;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0.01em;
 }
 
 .price-card h3 {
-	font-weight: 600;
-	font-size: 40px;
-	line-height: 71px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 71px;
 }
 
 .price-card p {
-	font-weight: 300;
-	font-size: 35px;
-	line-height: 53px;
+  font-weight: 300;
+  font-size: 35px;
+  line-height: 53px;
 }
 
 /*----------------------Contact---------------- */
 
 .contact-container {
-	height: 800px;
-	background: url("../images/contact.jpg") fixed center no-repeat;
-	background-size: cover;
+  height: 800px;
+  background: url("../images/contact.jpg") fixed center no-repeat;
+  background-size: cover;
 }
 
 /*----------------------Footer---------------- */
 
 .footer-container {
-	height: 20%;
+  height: 20%;
 }
 
 .footer-container h2 {
-	font-weight: 600;
-	font-size: 90px;
-	letter-spacing: 0.145em;
-	color: #fff;
+  font-weight: 600;
+  font-size: 90px;
+  letter-spacing: 0.145em;
+  color: #fff;
 }
 
 .footer-container a {
-	color: #fff;
+  color: #fff;
 }
 
 .footer-container a:hover {
-	text-decoration: none;
-	color: #fa4616;
+  text-decoration: none;
+  color: #fa4616;
 }
 
 @media screen and (max-width: 600px) {
-	.footer-container li {
-		text-align: center;
-	}
+  .footer-container li {
+    text-align: center;
+  }
 }
