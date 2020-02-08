@@ -42,7 +42,7 @@ html {
 
 /*This fixes responsive errors in the card-decks on smaller screen sizes using CSS-grid.
 Standard Bootstrap settings squashed the text blocks, this prevents it.
-Created by user exitarz on Stackoverflow:
+Created by user exitarz on Stackoverflow: 
 https://stackoverflow.com/questions/36487389/bootstrap-4-card-deck-table-cell-columns-responsive-based-on-viewport*/
 
 .card-deck {
