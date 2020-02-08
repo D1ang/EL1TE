@@ -21,7 +21,7 @@ Be simple layout with the main focus on the companies services and products.
 to instill confidence in the potential B2B customer looking for the products they need.
 
 ## User stories
-Trough phone-research of existing customers, we tried to find out what they need and what they think the companies strongest points are.
+By phone-research of existing customers, we tried to find out what they need and what they think the companies strongest points are.
 We wanted to know what the costumers finds most important.
 The following points came up:
 

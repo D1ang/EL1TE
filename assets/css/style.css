@@ -165,7 +165,7 @@ https://stackoverflow.com/questions/36487389/bootstrap-4-card-deck-table-cell-co
 
 /*----------------------small header contactbox---------------- */
 
-.contactbox {
+.contact-box {
 	position: absolute;
 	z-index: 2;
 	top: 0;
@@ -178,7 +178,7 @@ https://stackoverflow.com/questions/36487389/bootstrap-4-card-deck-table-cell-co
 	background-color: #3ec6f1;
 }
 
-.contactbox h4 {
+.contact-box h4 {
 	font-weight: 200;
 	font-size: 36px;
 	line-height: 53px;
@@ -187,12 +187,12 @@ https://stackoverflow.com/questions/36487389/bootstrap-4-card-deck-table-cell-co
 	color: #fff;
 }
 
-.contactbox i {
+.contact-box i {
 	padding-right: 5px;
 	color: #fff;
 }
 
-.contactbox a {
+.contact-box a {
 	text-decoration: none;
 	color: #fff;
 }
@@ -204,8 +204,8 @@ https://stackoverflow.com/questions/36487389/bootstrap-4-card-deck-table-cell-co
 	color: #fff;
 }
 
-.contactbox a:hover,
-.contactbox a:hover .fas,
+.contact-box a:hover,
+.contact-box a:hover .fas,
 .social a:hover .fab {
 	color: #fa4616;
 }
@@ -280,7 +280,7 @@ https://stackoverflow.com/questions/36487389/bootstrap-4-card-deck-table-cell-co
 }
 
 .bg-ecologic {
-	height: 450px;
+	height: 400px;
 	background: url("../images/ecologic.jpg") fixed center no-repeat;
 	background-size: cover;
 	display: -webkit-box;
