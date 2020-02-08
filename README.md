@@ -11,7 +11,7 @@ In short:
 - attract more B2B customers
 
 ## Demo
-A live demo version can be found [here](https://d1ang.github.io/EL1TE/).
+A live demo version can be found **[here](https://d1ang.github.io/EL1TE/)**
 
 ![Design](https://github.com/D1ang/EL1TE/blob/master/mockups/responsive.png)
 
@@ -25,12 +25,21 @@ Trough phone-research of excisting customers we tried to find out what they need
 We wanted to know what our costumer find important.
 The following points came up:
 
- - As a user, I want to see if this company is trustworthy.             **service page**
- - As a user, I want to know if this company is fast and flexible.      **service page**
- - As a user, I want to know how much it will cost.                     **price page**
- - As a user, I want to know my product options.                        **product page**
- - As a user, I want to cknow how I can contact this company.           **blue contactbox, contact page and footer**
- - As a user, I'm mostly busy and I want to find quick and preverable on my phone **responsive**
+**service page**
+ - As a user, I want to see if this company is trustworthy.
+ - As a user, I want to know if this company is fast and flexible.
+
+ **price page**
+ - As a user, I want to know how much it will cost.
+
+ **product page**
+ - As a user, I want to know my product options.
+
+ **blue contactbox, contact page and footer**
+ - As a user, I want to cknow how I can contact this company.
+
+ **responsive**
+ - As a user, I'm mostly busy and I want to find quick and preverable on my phone
 
 ### Strategy
 The goal in the design was to make it as easy as possible to access, short and a informative B2B based site,
@@ -48,26 +57,28 @@ The proper order of the pages is created to try to trigger the reader to contact
 
 ### Skeleton
 By using figma the following wireframes were created:
+
 [EL1TE wireframe](https://github.com/D1ang/EL1TE/blob/master/mockups/wireframe.pdf)
+
 [Responsive phone wireframe](https://github.com/D1ang/EL1TE/blob/master/mockups/responsive.pdf)
 
 ### Surface
 The colours blue and orange were used to create as high energy "sport" like feel.
-After a short Google search for the most used Google Fonto n sport site's.
-Oswald was shocen on it's popularity in demand on sport sites.
-The buttons are styled as blocks to be in comform wioth the header block and to keep the style in check with the blue call to action block. and to give it a more business typed feel.
+After a short Google search for the most used Google Fonts on sport sites, Oswald was chosen on it's popularity and demand on excisting sport sites.
+The buttons are styled as blocks to be in comform with the header block and to keep the style in check with the blue call to action block.
 
 ## Technologies
-1. HTML5            To create a basic site
-2. CSS              To create a nice style and stand out
-3. Bootstrap        To improve responsiveness
-4. Figma            I used figma to wireframe the design of the pages.
+1. HTML *To create a basic site*
+2. CSS *To create a nice style and to stand-out*
+3. Bootstrap *To improve responsiveness*
+4. Figma *To create a wireframe*
 
 
 ## Features
 This site uses a parallax scrolling effect in CSS to create a subtle element of depth that results in a distinctive and memorable website. 
-The navbar collapsed on smaller screen sizes to be usefull one phones.
+The navbar collapsed on smaller screen sizes to be usefull on phones and will be available on every page.
 On larger screens a "call to action" bluebox wil appear so user can contact more quickly without scrolling trough the page.
+by using Smooth Scrolling a scroll effect has been added as the site felt a bit slugish.
 
 Navbar: 
 Home:
@@ -81,8 +92,8 @@ Contact:
 - ...
 
 ### Features Left to Implement
-In the future, I would like to add an ordersystem behind a login so excisting customers can order products more easily.
-I would like to also add animations to the cards in the products and prices section to move on the page when the section is scrolled to. 
+In the future, I would like to add an ordersystem with a login so excisting customers can order products more easily.
+Also I would like to add some animations to the cards in the products and prices section to move on the page when the section is scrolled to. 
 
 
 ## Testing
