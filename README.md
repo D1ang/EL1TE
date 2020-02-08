@@ -32,6 +32,7 @@ The following points came up:
  - As a user, I want to know how much it will cost.                     (price page)
  - As a user, I want to know my product options.                        (product page)
  - As a user, I want to cknow how I can contact this company.           (blue contactbox, contact page and footer)
+ - As a user, I'm mostly busy and I want to find quick and preverable on my phone (responsive)
 
 ### Strategy
 The goal in the design was to make it as easy as possible to access short informative B2B based site,
@@ -46,6 +47,7 @@ The site is structured to get the right information as quickly as possible.
 Contact information on the top and further down buttons to get to the contact form.
 
 ### Skeleton
+By using figma the following wireframes were created:
 [EL1TE wireframe](https://www.figma.com/file/3VCrAaJBiDzaORiA8KSroK/EL1TE?node-id=0%3A1)
 [Responsive phone wireframe](https://www.figma.com/file/EdKAJaVOlBZMMYuAMIOIms/EL1TE-Copy)
 
@@ -53,11 +55,13 @@ Contact information on the top and further down buttons to get to the contact fo
 The colours blue and orange were used to create as high energy "sport" like feel.
 After a short Google search for the most used Google Fonto n sport site's.
 Oswald was shocen on it's popularity in demand on sport sites.
+The buttons are styled as blocks to be in comform wioth the header block and to keep the style in check with the blue call to action block. and to give it a more business typed feel.
 
 ## Technologies
 1. HTML5            To create a basic site
 2. CSS              To create a nice style and stand out
 3. Bootstrap        To improve responsiveness
+4. Figma            I used figma to wireframe the design of the pages.
 
 
 ## Features
