@@ -79,17 +79,8 @@ This site uses a parallax scrolling effect in CSS to create a subtle element of 
 The navbar collapsed on smaller screen sizes to be usefull on phones and will be available on every page.
 On larger screens a "call to action" bluebox wil appear so user can contact more quickly without scrolling trough the page.
 by using Smooth Scrolling a scroll effect has been added as the site felt a bit slugish.
+The buttons are created to move the user to the contaqct page as this would be the final step that we would like to achieve.
 
-Navbar: 
-Home:
-Products:
-Service:
-Price:
-Contact:
-
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
 
 ### Features Left to Implement
 In the future, I would like to add an ordersystem with a login so excisting customers can order products more easily.
@@ -107,7 +98,6 @@ When the webpage is visited on larger screens a blue box is shown on the upper r
 This will dissapear on smaller screens the box is used for direct to call actions and social media.
 A navbar is show all the time and will transform to a optionbar on smaller phone screens.
 
-Text.
 The text and card-decks will properly align on every screen size. The card-decks have some extra CSS code to improve alignment of the content within the cards.
 The footer will place the text beneeath echother to make it mmore nice for phonelinke smaller screens.
 
