@@ -1,16 +1,14 @@
 # EL1TE
 Milestone project 1: User-Centric Frontend Development - Code Institute
 
-## Introduction
-As a current employee of a screen-press company a need for new concepts 
-in sports clothing has been requested to get more customers in sport.
-The site needs to be small, informative, quick and to use a well thought-out logic
-Main goal is to make us know on the web and to trigger new customers attention.
-The customer base will be B2B companies in sports.
+For a silk screen-press company a need for new concepts in sports clothing has been requested to get more customers in sport.
+The site needs to be small, informative, quick and to use a well thought-out logic.
+Main goal is to make the company know on the web and to trigger new customers attention.
+The customer base will be mostly business to business in sports.
 
 In short:
 - increase brand awareness
-- attrac more clients
+- attract more B2B customers
 
 ## Demo
 A live demo version can be found [here](https://d1ang.github.io/EL1TE/).
@@ -18,38 +16,40 @@ A live demo version can be found [here](https://d1ang.github.io/EL1TE/).
 ![Design](https://github.com/D1ang/EL1TE/blob/master/mockups/responsive.png)
 
 ## UX
-To make the website as clear as possible to the user as to the option we provide.
-Be simple layout with the main focus on the companies service and product options
+To make the website as clear as possible to the user as to the options we provide.
+Be simple layout with the main focus on the companies services and products.
 to in-still confidence in the potential B2B customer looking for the products they need.
 
 ## User stories
-Trough phone-recearch of excisting customers we tried to find out what they need and what they think what our strongest and weakest point are.
+Trough phone-research of excisting customers we tried to find out what they need and what they think what our strongest points are.
 We wanted to know what our costumer find important.
 The following points came up:
 
- - As a user, I want to see if this company is trustworthy.             (service pag)
- - As a user, I want to know if this company is fast and flexible.      (service page)
- - As a user, I want to know how much it will cost.                     (price page)
- - As a user, I want to know my product options.                        (product page)
- - As a user, I want to cknow how I can contact this company.           (blue contactbox, contact page and footer)
- - As a user, I'm mostly busy and I want to find quick and preverable on my phone (responsive)
+ - As a user, I want to see if this company is trustworthy.             **service page**
+ - As a user, I want to know if this company is fast and flexible.      **service page**
+ - As a user, I want to know how much it will cost.                     **price page**
+ - As a user, I want to know my product options.                        **product page**
+ - As a user, I want to cknow how I can contact this company.           **blue contactbox, contact page and footer**
+ - As a user, I'm mostly busy and I want to find quick and preverable on my phone **responsive**
 
 ### Strategy
-The goal in the design was to make it as easy as possible to access short informative B2B based site,
-while striving for a minimalist and user-friendly design as possible.
+The goal in the design was to make it as easy as possible to access, short and a informative B2B based site,
+while striving for a minimalistic and user-friendly design as possible.
 
 ### Scope
 For B2B visitors, we wanted to provide them with a short overview of the products and the companies strongest points.
-This way, they would be able to get a glimpse of what the company sells and would be a trustworthy partner to do business with.
+This way, they would be able to get a glimpse of what the company sells and if it is a trustworthy partner to do business with.
 
 ### Structure
 The site is structured to get the right information as quickly as possible.
 Contact information on the top and further down buttons to get to the contact form.
+A navigationbar thats always available to quickly scroll between pages.
+The proper order of the pages is created to try to trigger the reader to contact us.
 
 ### Skeleton
 By using figma the following wireframes were created:
-[EL1TE wireframe](https://www.figma.com/file/3VCrAaJBiDzaORiA8KSroK/EL1TE?node-id=0%3A1)
-[Responsive phone wireframe](https://www.figma.com/file/EdKAJaVOlBZMMYuAMIOIms/EL1TE-Copy)
+[EL1TE wireframe](https://github.com/D1ang/EL1TE/blob/master/mockups/wireframe.pdf)
+[Responsive phone wireframe](https://github.com/D1ang/EL1TE/blob/master/mockups/responsive.pdf)
 
 ### Surface
 The colours blue and orange were used to create as high energy "sport" like feel.
