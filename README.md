@@ -109,6 +109,14 @@ Scrolling to the site felt a  bit slugish by using Smooth Scrolling
 [w3schools.com](https://www.w3schools.com/howto/howto_css_smooth_scroll.asp)
 By using Smooth Scroll the navbuttons to the pages are react more fluid.
 
+### Navbar hamburger icon:
+The navbar hamburger icon that show on smaller screens had a outline when pressed and jumped a few pixel up.
+This has been fixed bij adding a top-padding of 3 pixel in the style and by adding .navbar-toggler:focus,
+.navbar-toggler:active {
+	outline: none;
+	box-shadow: none;
+}
+for the banenr
 
 The following test have been used to ensure proper site functionality:
 [GTmetrix](https://gtmetrix.com/) To test on website loading times

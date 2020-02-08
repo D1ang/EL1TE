@@ -71,7 +71,14 @@ https://stackoverflow.com/questions/36487389/bootstrap-4-card-deck-table-cell-co
 }
 
 .navbar .navbar-toggler {
+	margin-top: 3px;
 	border: 0;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+	outline: none;
+	box-shadow: none;
 }
 
 .navbar .navbar-nav .nav-link {
