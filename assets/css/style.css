@@ -46,6 +46,7 @@ Created by user exitarz on Stackoverflow:
 https://stackoverflow.com/questions/36487389/bootstrap-4-card-deck-table-cell-columns-responsive-based-on-viewport*/
 
 .card-deck {
+	display: -ms-grid;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 	grid-gap: .5rem;
@@ -105,10 +106,9 @@ https://stackoverflow.com/questions/36487389/bootstrap-4-card-deck-table-cell-co
 .banner-container {
 	height: 560px;
 	background: url('../images/banner.jpg') no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
 	background-size: cover;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 }
 
@@ -275,10 +275,9 @@ https://stackoverflow.com/questions/36487389/bootstrap-4-card-deck-table-cell-co
 .bg-ecologic {
 	height: 450px;
 	background: url("../images/ecologic.jpg") fixed center no-repeat;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
 	background-size: cover;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 }
 
@@ -318,9 +317,6 @@ https://stackoverflow.com/questions/36487389/bootstrap-4-card-deck-table-cell-co
 .contact-container {
 	height: 800px;
 	background: url("../images/contact.jpg") fixed center no-repeat;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
 	background-size: cover;
 }
 

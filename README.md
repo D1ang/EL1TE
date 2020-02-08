@@ -55,9 +55,9 @@ After a short Google search for the most used Google Fonto n sport site's.
 Oswald was shocen on it's popularity in demand on sport sites.
 
 ## Technologies
-1. HTML5                To create a basic site
-2. CSS                  To create a nice style and stand out
-3. Bootstrap (4.4.1)    To improve responsiveness
+1. HTML5            To create a basic site
+2. CSS              To create a nice style and stand out
+3. Bootstrap        To improve responsiveness
 
 
 ## Features
@@ -115,6 +115,7 @@ The following test have been used to ensure proper site functionality:
 [W3C HTML Validator](https://validator.w3.org/) This validator checks the markup validity of Web documents in HTML.
 [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) This validator checks the markup validity of Web documents in CSS.
 [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) Inspecting on overflow errors
+[Autoprefixer CSS online](https://autoprefixer.github.io/) Autoprefixer is a PostCSS plugin which parses your CSS and adds vendor prefixes
 
 
 ## Deployment
