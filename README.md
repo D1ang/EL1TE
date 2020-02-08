@@ -1,5 +1,5 @@
 # EL1TE
-Milestone project 1: User-Centric Frontend Development - Code Institute
+**Milestone project 1: User-Centric Frontend Development - Code Institute**
 
 For a silkscreen-press company a need for new concepts in sports clothing has been requested to get more customers in sport.
 The site needs to be small, informative, quick and to use a well thought-out logic.
