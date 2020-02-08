@@ -117,11 +117,11 @@ This has been fixed by adding a top-padding of 3 pixels in the style and by addi
 
 The following tests have been used to ensure proper site functionality:
 
-- [GTmetrix](https://gtmetrix.com/) To test on website loading times
-- [W3C HTML Validator](https://validator.w3.org/) This validator checks the markup validity of Web documents in HTML.
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) This validator checks the markup validity of Web documents in CSS.
-- [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) Inspecting on overflow errors
-- [Autoprefixer CSS online](https://autoprefixer.github.io/) Autoprefixer is a PostCSS plugin which parses your CSS and adds vendor prefixes
+- [GTmetrix](https://gtmetrix.com/): To test on website loading times
+- [W3C HTML Validator](https://validator.w3.org/): This validator checks the markup validity of Web documents in HTML.
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/): This validator checks the markup validity of Web documents in CSS.
+- [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB): Inspecting on overflow errors
+- [Autoprefixer CSS online](https://autoprefixer.github.io/): Autoprefixer is a PostCSS plugin which parses your CSS and adds vendor prefixes
 
 
 ## Deployment
@@ -143,8 +143,6 @@ All material from Adobe Stock are licensed with a paid account.
 
 ### Acknowledgements
 
-The Parallax Scrolling effect was found on w3schools.com [link](https://www.w3schools.com/howto/howto_css_parallax.asp) by advice.
-
-Fixing the card-decks responsiveness [link](https://stackoverflow.com/questions/48406628/bootstrap-align-button-to-the-bottom-of-card)
-
-The following site [link](https://www.mbsportswear.nl/) was used as an insparation for the navigation bar and blue "call to action" box.
+- The Parallax Scrolling effect was found on w3schools.com [link](https://www.w3schools.com/howto/howto_css_parallax.asp) (by mentor advice)
+- Fixing the card-decks responsiveness [link](https://stackoverflow.com/questions/48406628/bootstrap-align-button-to-the-bottom-of-card)
+- The following site [link](https://www.mbsportswear.nl/) was used as an insparation for the navigation bar and blue "call to action" box.
