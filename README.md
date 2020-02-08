@@ -116,11 +116,12 @@ This has been fixed by adding a top-padding of 3 pixels in the style and by addi
 
 
 The following tests have been used to ensure proper site functionality:
-[GTmetrix](https://gtmetrix.com/) To test on website loading times
-[W3C HTML Validator](https://validator.w3.org/) This validator checks the markup validity of Web documents in HTML.
-[W3C CSS Validator](https://jigsaw.w3.org/css-validator/) This validator checks the markup validity of Web documents in CSS.
-[Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) Inspecting on overflow errors
-[Autoprefixer CSS online](https://autoprefixer.github.io/) Autoprefixer is a PostCSS plugin which parses your CSS and adds vendor prefixes
+
+- [GTmetrix](https://gtmetrix.com/) To test on website loading times
+- [W3C HTML Validator](https://validator.w3.org/) This validator checks the markup validity of Web documents in HTML.
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) This validator checks the markup validity of Web documents in CSS.
+- [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) Inspecting on overflow errors
+- [Autoprefixer CSS online](https://autoprefixer.github.io/) Autoprefixer is a PostCSS plugin which parses your CSS and adds vendor prefixes
 
 
 ## Deployment
